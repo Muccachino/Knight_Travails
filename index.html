@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Knight Travails</h1>
+      <div>
+        <h3>Please enter the start coordinates of the knight: (0 | 0) - (7 | 7)</h3>
+        <label>X: <span><input id="startX" type="text"/></span></label>
+        <label>Y: <span><input id="startY" type="text"/></span></label>
+      </div>
+
+      <div>
+        <h3>Please enter the end coordinates of the knight: (0 | 0) - (7 | 7)</h3>
+        <label>X: <span><input id="endX" type="text"/></span></label>
+        <label>Y: <span><input id="endY" type="text"/></span></label>
+      </div>
+
+      <button style="margin-top: 50px; margin-bottom: 50px" id="startButton">Go</button>
+    </div>
+
+    <p id="result"></p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
